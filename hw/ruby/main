@@ -1,6 +1,14 @@
 #!/usr/bin/ruby -W
 
+def prompt(message)
+	puts message
+	name = gets
+	return name
+end
 
-puts "Hello welcome to my story game\n"
-name = gets
-puts 'Hello ' + name + 'How r u'
+def tell(message)
+	puts message
+end
+
+name = prompt("What is your name?:")
+tell(name)

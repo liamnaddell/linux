@@ -1,6 +1,14 @@
 #!/bin/sh
 
-printf "Welcome to my interactive story game, what is ur name?-> "
-read NAME
-echo "Hello, $NAME.  Nice to meet you."
+
+tell() {
+	echo $1
+}
+prompt() {
+	echo $1
+	read LASTIN
+	
+}
+prompt 'Welcome to my interactive story game, what is ur name?-> '
+tell $LASTIN
 
