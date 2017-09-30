@@ -1,0 +1,6 @@
+#!/bin/sh
+
+printf "Welcome to my interactive story game, what is ur name?-> "
+read NAME
+echo "Hello, $NAME.  Nice to meet you."
+

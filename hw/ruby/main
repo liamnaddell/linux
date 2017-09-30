@@ -1,0 +1,6 @@
+#!/usr/bin/ruby -W
+
+
+puts "Hello welcome to my story game\n"
+name = gets
+puts 'Hello ' + name + 'How r u'
