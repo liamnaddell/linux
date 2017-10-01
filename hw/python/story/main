@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+
+import sys
+def tell(str):
+    print(str)
+
+def Welcome():
+    tell("My name is kreeam") 
+    return Name
+
+def Name():
+    name = input("What is your name:")
+    tell("Howdy "+name)
+    sys.exit()
+
+func = Welcome()
+while True:
+    func = func()

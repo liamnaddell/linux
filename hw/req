@@ -1,12 +1,12 @@
-Create a GitHub repo
-Setup a Linux system to code on
-Clone the repo to the system (prefer HTTP with password)
-Install whatever language you need
-Use vi to code the following
-Code "Hello world" in Shell (POSIX Bourne) (story.sh)
-Code "Hello world" in Perl (story.pl)
-Code "Hello world in Python3 (story.py)
-Code "Hello world in Go (story.go)
+Create a GitHub repo ✅
+Setup a Linux system to code on ✅
+Clone the repo to the system (prefer HTTP with password)✅
+Install whatever language you need✅
+Use vi to code the following✅
+Code "Hello world" in Shell (POSIX Bourne) (story.sh)✅
+Code "Hello world" in Perl (story.pl)✅
+Code "Hello world in Python3 (story.py)✅
+Code "Hello world in Go (story.go)✅
 Code "Hello world" in Ruby (optional) (story.rb)
 Code "Hello world" in Node (optional) (story.js)
 Code "Hello world" in C++ (optional) (story.cpp)
