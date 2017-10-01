@@ -1,4 +1,3 @@
-use strict;
 use warnings;
 
 sub tel2u {
@@ -11,5 +10,22 @@ sub prompt {
 	return $response;
 }
 
-my $age = prompt("Welcome to my story game, what is your age?\n");
-tel2u($age);
+sub Welcome {
+	tel2u("My name is leam\n");
+	return \&Name
+}
+
+sub Name {
+	my $name = prompt("What is your name:");
+	tel2u("Nice to meat u ". $name);
+	return \&Exit;
+}
+
+sub Exit {
+	exit
+}
+my $func = \&Welcome;
+
+while (1==1) {
+	$func = &$func();
+}

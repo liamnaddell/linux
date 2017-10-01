@@ -13,7 +13,7 @@ int main() {
 
 	//lol hi = &tell;
 	//hi("he\n");
-	myfunc = Name();
+	myfunc = Welcome();
 	while(1 == 1){
 		if (myfunc == NULL) {
 			return 0;
@@ -36,12 +36,12 @@ char* Input(char *prompt) {
 }
 
 void * Welcome() {
-	printf("hi");
-	return NULL;
+	puts("My name is wrian\n");
+	return &Name;
 }
 
 void * Name() {
 	char *name_nf = Input("Welcome to my interactive story game, what is your name?:");
 	printf("Welcome to the game, %s\n", name_nf);
-	return &Welcome;
+	return NULL;
 }

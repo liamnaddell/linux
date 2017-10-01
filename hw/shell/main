@@ -9,6 +9,22 @@ prompt() {
 	read LASTIN
 	
 }
-prompt 'Welcome to my interactive story game, what is ur name?-> '
-tell $LASTIN
+Welcome() {
+	tell 'My name is wkiam'
+	handler='Name'
+}
+
+Name() {
+	prompt 'What is your name'
+	tell "Hello, $LASTIN"
+	handler='Exit'
+}
+Exit() {
+	exit
+}
+handler='Welcome'
+while true
+do
+	eval $handler 
+done
 

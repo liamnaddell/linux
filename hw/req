@@ -1,0 +1,26 @@
+Create a GitHub repo
+Setup a Linux system to code on
+Clone the repo to the system (prefer HTTP with password)
+Install whatever language you need
+Use vi to code the following
+Code "Hello world" in Shell (POSIX Bourne) (story.sh)
+Code "Hello world" in Perl (story.pl)
+Code "Hello world in Python3 (story.py)
+Code "Hello world in Go (story.go)
+Code "Hello world" in Ruby (optional) (story.rb)
+Code "Hello world" in Node (optional) (story.js)
+Code "Hello world" in C++ (optional) (story.cpp)
+Code "Hello world" in C (optional) (story.c)
+Code "Hello world" in TCL (optional) (story.tcl)
+Commit and push your changes
+ 
+Create an input() equivalent for all languages
+Prompt the player to type in their name
+Print something like "Nice to meet you, <name>."
+ 
+Create a tell(text) function that prints the text
+ 
+Create a global handler function that can be redefined by each part
+Create a Welcome() part function that simply prints "welcome" message
+Create a Name() part function and put name code in input
+Link Welcome() part to Name() part
